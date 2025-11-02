@@ -1,0 +1,11 @@
+data:
+  zip_path: "data/chest_xray-20250726T110654Z-1-001.zip"
+  extract_path: "data/"
+  base_path: "data/chest_xray"
+  image_size: [180, 180]
+  batch_size: 32
+
+model:
+  epochs: 5
+  learning_rate: 0.001
+  dropout: 0.3
